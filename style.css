@@ -1,0 +1,11 @@
+#ChildView {
+    height: 1000px;
+    width: 50%;
+    background-color: #D64D4D;
+  }
+
+#ParentView {
+    height: 1000px;
+    width: 50%;
+    background-color: #55A6FF;
+  }

@@ -1,23 +1,41 @@
-import './style.css'
-import typescriptLogo from './typescript.svg'
-import { setupCounter } from './counter'
+// getting css
+import './style.css';
 
+// grabbing coin image
+import coinUrl from './coin.png';
+
+/* 
+HTML for Child and Parent View 
+*/
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://www.typescriptlang.org/" target="_blank">
-      <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
-    </a>
-    <h1>Vite + TypeScript</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite and TypeScript logos to learn more
-    </p>
-  </div>
-`
+  <div id="child-view">
+    <h1>Child Side</h1>
 
-setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
+    <span id="child-pfp"></span>
+
+    <div class="top-currency">
+      <h1>1500</h1>
+
+      <div class="coin">
+        <img src="${coinUrl}">
+      </div>
+    </div>
+  </div>
+  
+  <div id="parent-view">
+    <h1>Parent Side</h1>
+
+    <span id="parent-pfp"></span>
+
+    <div class="top-currency">
+      <h1>1500</h1>
+
+      <div class="coin">
+        <img src="${coinUrl}">
+      </div>
+    </div>
+  </div>
+
+  <button class="btn-1">Ready </button>
+  <button class="btn-2"> Up</button>
+`;
