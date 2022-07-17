@@ -222,7 +222,7 @@ function runQuiz() {
           showQuestion(adultQuestion);
           checkIfWin();
         } else {
-          //adultQuestionCount--;
+          adultQuestionCount--;
         }
       } else {
         if (checkAnswer(option, childQuestion)) {
@@ -230,7 +230,7 @@ function runQuiz() {
           childQuestion = selectRandomFromArray(questionGroup.filter({ adult: false }));
           showQuestion(childQuestion);
         } else {
-          //childQuestionCount--;
+          childQuestionCount--;
           checkIfWin();
         }
       }

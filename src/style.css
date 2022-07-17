@@ -344,12 +344,6 @@ button {
   font-style: bold;
 }
 
-#child-options {
-}
-
-#parent-options {
-}
-
 .flex{
     display: flex;
     justify-content: space-between;
@@ -500,18 +494,18 @@ body{
 
 child-shop {
   animation-name: fade-in;
-  animation-duration: 1.5s;
+  animation-duration: 0.75s;
   opacity: 1;
-  -webkit-transition: opacity 1500ms linear;
-  transition: opacity 1500ms linear;
+  -webkit-transition: opacity 750ms linear;
+  transition: opacity 750ms linear;
 }
 
-parent-shop {
+adult-shop {
   animation-name: fade-in;
-  animation-duration: 1.5s;
+  animation-duration: 0.75s;
   opacity: 1;
-  -webkit-transition: opacity 1500ms linear;
-  transition: opacity 1500ms linear;
+  -webkit-transition: opacity 750ms linear;
+  transition: opacity 750ms linear;
 }
 
 #steve-pfp{

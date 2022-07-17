@@ -65,7 +65,7 @@ function toggleChildShop() {
       childShop.remove();
       childShopOpen = false;
       shopButtons[0].disabled = false;
-    }, 1500)
+    }, 750)
   } else {
     document.querySelector("#child-view")!.insertAdjacentHTML("beforeend", "<child-shop></child-shop>");
     childShopOpen = true;
@@ -80,8 +80,13 @@ function toggleParentShop() {
   if (parentShopOpen) {
     const adultShop: AdultShop = document.querySelector("adult-shop")!;
     adultShop.style.opacity = "0";
-    adultShop.remove();
-    parentShopOpen = false;
+    shopButtons[1].disabled = true;
+    
+    setTimeout(() => {
+      adultShop.remove();
+      parentShopOpen = false;
+      shopButtons[1].disabled = false;
+    }, 750);
   } else {
     document.querySelector("#parent-view")!.insertAdjacentHTML("beforeend", "<adult-shop></adult-shop>");
     parentShopOpen = true;
