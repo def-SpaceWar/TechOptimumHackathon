@@ -1,4 +1,4 @@
-e# TODO:
+# TODO:
 
 Features:
 * Configurable difficulty.

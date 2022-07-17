@@ -1,5 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
 :root {
-  font-family: Arial; /* Change this at some point! */
+  font-family: Itim;
+}
+
+button {
+  font-family: Itim;
+}
+
+.btn-shop {
+  position: absolute;
+  top: 12.5px;
+  height: 50px;
+  left: 40%;
+  width: 20%;
+  border: solid 0px;
+  border-radius: 10px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  vertical-align: middle;
+  color: #FFF;
+  font-size: 40px;
+}
+
+.green {
+  background-color: #55FFA6;
+}
+
+.orange {
+  background-color: #D69D4D;
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-out {
+  opacity: 0;
+  animation-name: fade-out;
+  animation-duration: 2s;
 }
 
 #child-view {
@@ -88,10 +133,14 @@
   image-rendering: pixelated;
 }
 
-.btn-1 {  
+#parent-view .top-currency .coin img {
+  width: -40px;
+}
+
+#btn-1 {  
   position: absolute;
   right: 50%;
-  top: 50%;
+  top: 80%;
   text-align:right;
   width: 300px;
   height: 100px;
@@ -103,12 +152,21 @@
   border-style: solid;
   border:2px;
   padding-right: 10px;
+  transition: background-color 0.5s;
 }
 
-.btn-2 {  
+#btn-1:hover {
+  background-color: #447699;
+}
+
+#btn-1:disabled {
+  background-color: #225377;
+}
+
+#btn-2 {  
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 80%;
   text-align:left;
   width: 300px;
   height: 100px;
@@ -119,6 +177,23 @@
   position: absolute;
   border-style: solid;
   padding-left: 10px;
+  transition: background-color 0.5s;
+}
+
+#btn-2:hover {
+  background-color: #854848;
+}
+
+#btn-2:disabled {
+  background-color: #632626;
+}
+
+.btn-tooltip {
+  position: absolute;
+  top: 3%;
+  left: 42%;
+  width: 16%;
+  font-size: 15px;
 }
 
 #child-view #child-pfp {
@@ -136,7 +211,6 @@
 }
 
 #parent-view #parent-pfp {
-
   position: absolute;
   top: 2%;
   right: 2%;
@@ -148,4 +222,352 @@
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
+}
+
+.title {
+  font-size: 75px;
+  color: #eff;
+  padding-top:50px;
+}
+
+@keyframes shrink-title-animation {
+  from {
+    font-size: 75px;
+    color: #eff;
+    padding-top: 50px;
+  }
+  to {
+    font-size: 25px;
+    padding-top: 25px;
+  }
+}
+
+.small-title {
+  font-size: 25px;
+  color: #eff;
+  padding-top: 25px;
+  animation-name: shrink-title-animation;
+  animation-duration: 2s;
+}
+
+#parent-title {
+  font-size: 75px;
+  color: #eff;
+  padding-top: 50px;
+  transition: font-size 1s, padding-top 1s;
+}
+
+#parent-iphone {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  width: 70%;
+}
+
+#parent-iphone img {
+  width: 100%;
+}
+
+#child-iphone{
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  width: 70%;
+}
+
+#child-iphone img {
+  width: 100%;
+}
+
+.div-border {
+    border-style: solid;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#child-card {
+  position: absolute;
+  width: 40%;
+  top:20%;
+  left:5%;
+  text-align: center;
+  font-size:30px;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  animation-name: fade-in;
+  animation-duration: 5s;
+}
+
+#parent-card {
+  position: absolute;
+  width:40%;
+  top:20%;
+  right:5%;
+  text-align: center;
+  font-size: 30px;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  animation-name: fade-in;
+  animation-duration: 5s;
+}
+
+#child-question {
+  font-style: italic;
+  font-size: 45px;
+}
+
+#parent-question {
+  font-style: italic;
+  font-size: 45px;
+}
+
+#child-topic {
+  font-style: bold;
+}
+
+#parent-topic {
+  font-style: bold;
+}
+
+#child-difficulty {
+  font-style: bold;
+}
+
+#parent-difficulty {
+  font-style: bold;
+}
+
+#child-options {
+}
+
+#parent-options {
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    background: linear-gradient(90deg, #D64D4D 50%, #55A6FF 50%);
+}
+
+.div-border {
+    border-style: solid;
+}
+
+#steve-card{
+    width: 20%;
+    height:200px;
+    margin-top:3%;
+    text-align: center;
+    font-size:30px;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+
+}
+
+#amogus-card{
+    width:20%;
+    height:200px;
+    margin-top:3%;
+    text-align: center;
+    font-size: 30px;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+}
+
+#fall-card{
+    width:20%;
+    height:200px;
+    margin-top:3%;
+    text-align: center;
+    font-size: 30px;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+    
+}
+
+#scissors-card{
+    width:20%;
+    height:200px;
+    margin-top:3%;
+    text-align: center;
+    font-size: 30px;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+}
+
+#pencil-card{
+  width:20%;
+    height:200px;
+    margin-top:3%;
+    text-align: center;
+    font-size: 30px;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+}
+
+#protractor-card{
+  width:20%;
+    height:200px;
+    margin-top:3%;
+    text-align: center;
+    font-size: 30px;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+}
+
+
+.added-flex{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#steve-image {
+  height:72%;
+  padding-top: 5%;
+  padding-right: 6%;
+}
+
+#amogus-image{
+  height:68%;
+  padding-top:8px;
+}
+
+#fallguys-image{
+  height:72%;
+  padding-top:5px;
+  
+}
+
+#scissors-image{
+  height:72%;
+}
+
+#pencil-image{
+  height:72%;
+}
+
+#protractor-image{
+  height:50%;
+  padding-top:10%;
+}
+
+#protractor-h1{
+  padding-top:24%;
+  font-size:30px;
+}
+
+#pencil-h1{
+  padding-top:5%;
+  font-size:30px;
+}
+
+#scissors-h1{
+  padding-top:5%;
+  font-size:30px;
+}
+
+#steve-h1{
+  padding-top:5%;
+  font-size:30px;
+}
+
+#fallguys-h1{
+  padding-top:5%;
+  font-size:30px;
+}
+
+#amogus-h1{
+  padding-top:10%;
+  font-size:30px;
+}
+
+child-shop {
+  animation-name: fade-in;
+  animation-duration: 1.5s;
+  opacity: 1;
+  -webkit-transition: opacity 1500ms linear;
+  transition: opacity 1500ms linear;
+}
+
+parent-shop {
+  animation-name: fade-in;
+  animation-duration: 1.5s;
+  opacity: 1;
+  -webkit-transition: opacity 1500ms linear;
+  transition: opacity 1500ms linear;
+}
+
+#steve-pfp{
+  position:absolute;
+  height:75px;
+  left:2%;
+  top:2%;
+}
+
+#scissors-pfp{
+  position:absolute;
+  height:70px;
+  right:2%;
+  top:2%;
+}
+
+#child-points {
+  animation-name: fade-in;
+  animation-duration: 2.5s;
+  position: absolute;
+  bottom: 2.5%;
+  left: 5%;
+  color: #eff;
+  font-size: 20px;
+}
+
+#parent-points {
+  animation-name: fade-in;
+  animation-duration: 2.5s;
+  position: absolute;
+  bottom: 2.5%;
+  right: 5%;
+  color: #eff;
+  font-size: 20px;
+}
+
+#winner {
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+  height: 20%;
+  font-size: 100px;
+  color: #5ff;
+  top: 24%;
+  left: 0%;
+}
+
+#back-to-home {
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+  height: 20%;
+  font-size: 100px;
+  color: #ff5;
+  top: 40%;
+  left: 0%;
 }

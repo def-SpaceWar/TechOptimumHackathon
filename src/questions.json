@@ -1,416 +1,629 @@
 {
-  "0": {
-    "question #1": {
+  "questions": [{
       "topic": "Math",
-      "question": "",
+      "question": "What's the answer to: 4 - 1 = ?",
       "options": [
-        "",
-        "",
-        "",
-        ""
+        "3",
+        "1",
+        "5",
+        "2"
       ],
       "gradeLevel": 0,
       "adult": false
     },
-    "question #2": {
+    {
       "topic": "Science",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "Which option is an example of an living thing?",
+      "options": [
+        "Plant",
+        "Scissors",
+        "Bicycle",
+        "Water"
       ],
       "gradeLevel": 0,
       "adult": false
     },
-      "question #3": {
+    {
       "topic": "Reading",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "I see a box. The box is brown. There is a bug in the box. What color is the box?",
+      "options": [
+        "Brown",
+        "Red",
+        "Circle",
+        "Bug"
       ],
       "gradeLevel": 0,
       "adult": false
     },
-        "question #4": {
+    {
       "topic": "Writing",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "What word is used to describe things?",
+      "options": [
+        "Good",
+        "Ice cream",
+        "Playing",
+        "Dog"
       ],
       "gradeLevel": 0,
       "adult": false
     },
-        "question #5": {
+    {
       "topic": "General",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "What color is the sky in the afternoon?",
+      "options": [
+        "Blue",
+        "Circle",
+        "Red",
+        "Minecraft: Dungeons and Dragons"
       ],
       "gradeLevel": 0,
       "adult": false
     },
-        "question #6": {
+    {
       "topic": "History",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "Who was the first president?",
+      "options": [
+        "George Washington",
+        "Dream",
+        "Minecraft: Dungeons and Dragons",
+        "Sunkrist Orange"
       ],
       "gradeLevel": 0,
       "adult": false
     },
-  },
-  "1": {
-    "question #1": {
+    {
       "topic": "Math",
-      "question": "",
+      "question": "What's 8*2?",
       "options": [
-        "",
-        "",
-        "",
-        ""
+        "16",
+        "6",
+        "10",
+        "23"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 1,
       "adult": false
     },
-    "question #2": {
+    {
       "topic": "Science",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "Which of the following is a vegetable?",
+      "options": [
+        "Carrot",
+        "Blackberry",
+        "Blueberry",
+        "Avacado"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 1,
       "adult": false
     },
-      "question #3": {
+    {
       "topic": "Reading",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "Once upon a time, there was a tiny kingdom filled with the greenest vegetables. The soliders wore a pink helmet while the royalty wore gray armor. What color was the royalty's armor?",
+      "options": [
+        "Gray",
+        "Pink",
+        "Green",
+        "Tokyo"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 1,
       "adult": false
     },
-        "question #4": {
+    {
       "topic": "Writing",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "Which of the following is a verb?",
+      "options": [
+        "Sanitizing",
+        "Sanitizer",
+        "Dungeon",
+        "Green"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 1,
       "adult": false
     },
-        "question #5": {
+    {
       "topic": "General",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "What time does someone usually eat breakfast?",
+      "options": [
+        "7:00 AM",
+        "2:00 AM",
+        "9:00 PM",
+        "5:00 PM"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 1,
       "adult": false
     },
-        "question #6": {
+    {
       "topic": "History",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "Who are the Native Americans?",
+      "options": [
+        "Group of people who inhabited America before Columbus' arrival",
+        "Group of people who came to America from Ireland",
+        "Group of people who like dogs",
+        "A person who likes wearing pink"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 1,
       "adult": false
     },
-  }
-  "2": {
-    "question #1": {
+    {
       "topic": "Math",
-      "question": "",
+      "question": "What is 20/4?",
       "options": [
-        "",
-        "",
-        "",
-        ""
+        "5",
+        "16",
+        "4",
+        "24"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 2,
       "adult": false
     },
-    "question #2": {
+    {
       "topic": "Science",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "What is the definition of Photosynethesis?",
+      "options": [
+        "The process by which plants synthesize food",
+        "The process by which humans recieve food",
+        "The process by which animals cook food",
+        "Something green in color"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 2,
       "adult": false
     },
-      "question #3": {
+    {
       "topic": "Reading",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "What is the definition of weeping?",
+      "options": [
+        "Crying",
+        "Scared",
+        "Shaking",
+        "Flying"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 2,
       "adult": false
     },
-        "question #4": {
+    {
       "topic": "Writing",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "Which word starts with a vowel?",
+      "options": [
+        "English",
+        "Yo-Yo",
+        "Finger",
+        "Sky"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 2,
       "adult": false
     },
-        "question #5": {
+    {
       "topic": "General",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "What is the capital of India?",
+      "options": [
+        "New Delhi",
+        "Texas",
+        "Mumbai",
+        "New York"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 2,
       "adult": false
     },
-        "question #6": {
+    {
       "topic": "History",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "Who made the first gasoline car?",
+      "options": [
+        "Carl Benz",
+        "Albert Einstein",
+        "Benjamin Franklin",
+        "Isaac Newton"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 2,
       "adult": false
     },
-  },
-  "3": {
-    "question #1": {
+    {
       "topic": "Math",
-      "question": "",
+      "question": "(6/3) / 1",
       "options": [
-        "",
-        "",
-        "",
-        ""
+        "2",
+        "5",
+        "1",
+        "9"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 3,
       "adult": false
     },
-    "question #2": {
+    {
       "topic": "Science",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "What is the hollow space in the middle of a bone filled with?",
+      "options": [
+        "Marrow",
+        "Blood",
+        "Solid Bone",
+        "Air"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 3,
       "adult": false
     },
-      "question #3": {
+    {
       "topic": "Reading",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "Choose the word that can go with the meaning given- A bird.",
+      "options": [
+        "Owl",
+        "Sowl",
+        "Growl",
+        "Towel"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 3,
       "adult": false
     },
-        "question #4": {
+    {
       "topic": "Writing",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "Which of the following is the spelling of a skill of marking words on paper?",
+      "options": [
+        "Writing",
+        "Crying",
+        "Reading",
+        "Righting"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 3,
       "adult": false
     },
-        "question #5": {
+    {
       "topic": "General",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "Who made the first computer?",
+      "options": [
+        "Charles Babbage",
+        "Ada Lovelace",
+        "George Washington",
+        "Albert Einstein"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 3,
       "adult": false
     },
-        "question #6": {
+    {
       "topic": "History",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "When did WW1 begin?",
+      "options": [
+        "1914",
+        "2011",
+        "1863",
+        "1918"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 3,
       "adult": false
     },
-  },
-  "4": {
-    "question #1": {
+    {
       "topic": "Math",
-      "question": "",
+      "question": "58*5",
       "options": [
-        "",
-        "",
-        "",
-        ""
+        "290",
+        "634",
+        "580",
+        "63"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 4,
       "adult": false
     },
-    "question #2": {
+    {
       "topic": "Science",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "What are the three common states of matter?",
+      "options": [
+        "Solids, Liquids, Gas",
+        "One, Two, Three",
+        "Cats, Dogs, Rats",
+        "Ice, Water, Water Vapour"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 4,
       "adult": false
     },
-      "question #3": {
+    {
       "topic": "Reading",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "Five years before 2000, a town with a population of 10,000 people suffered the biggest earthquake known to man. When did the earthquake occur?",
+      "options": [
+        "1995",
+        "2020",
+        "10,000",
+        "2005"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 4,
       "adult": false
     },
-        "question #4": {
+    {
       "topic": "Writing",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "What's the definition of contrast?",
+      "options": [
+        "To be different to something else",
+        "To be similar to something else",
+        "To decrease",
+        "To increase"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 4,
       "adult": false
     },
-        "question #5": {
+    {
       "topic": "General",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "What's the capital city of France?",
+      "options": [
+        "Paris",
+        "New Delhi",
+        "London",
+        "Tokyo"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 4,
       "adult": false
     },
-        "question #6": {
+    {
       "topic": "History",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "What year was Python first released?",
+      "options": [
+        "1991",
+        "1854",
+        "1993",
+        "2003"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 4,
       "adult": false
     },
-  },
-  "5": {
-    "question #1": {
+    {
       "topic": "Math",
-      "question": question,
+      "question": "(50/25)*(6-2)+2",
       "options": [
-        "",
-        "",
-        "",
-        ""
+        "10",
+        "24",
+        "8",
+        "9"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 5,
       "adult": false
     },
-    "question #2": {
+    {
       "topic": "Science",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "The name of the attractive force between the mass of Earth and the mass of objects on Earth is-",
+      "options": [
+        "Gravity",
+        "League Of Legends",
+        "Photosynthesis",
+        "Attraction"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 5,
       "adult": false
     },
-      "question #3": {
+    {
       "topic": "Reading",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "Who is the author of Percy Jackson?",
+      "options": [
+        "Rick Riordon",
+        "Joe Dine",
+        "Haley Riordon",
+        "Jack Sckamos"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 5,
       "adult": false
     },
-        "question #4": {
+    {
       "topic": "Writing",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "Which of the following is an example of a Simile?",
+      "options": [
+        "Joe was as clever as a fox",
+        "Five times 10",
+        "Little Loud Larry",
+        "Once upon a time..."
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 5,
       "adult": false
     },
-        "question #5": {
+    {
       "topic": "General",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "Who is a founder of the company Tesla?",
+      "options": [
+        "Martin Eberhard",
+        "Bill Gates",
+        "Jeff Bezos",
+        "Elon Musk"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 5,
       "adult": false
     },
-    "question #6": {
+    {
       "topic": "History",
-      "question": "",
-      "option": [
-        "",
-        "",
-        "",
+      "question": "When did the Vietnam war begin?",
+      "options": [
+        "November 1st, 1995",
+        "December 3rd, 2000",
+        "April 23rd, 1870",
+        "March 5th, 1999"
       ],
-      "gradeLevel": 0,
+      "gradeLevel": 5,
       "adult": false
     },
-  }
+    {
+      "topic": "Math",
+      "question": "Two straight lines are used to form an X. What is the sum of all interior angles in the figure?",
+      "options": [
+        "360",
+        "90",
+        "180",
+        "270"
+      ],
+      "gradeLevel": 1,
+      "adult": true
+    },
+    {
+      "topic": "Science",
+      "question": "Humans and chimpanzees share roughly how much DNA?",
+      "options": [
+        "99%",
+        "5%",
+        "23%",
+        "80"
+      ],
+      "gradeLevel": 1,
+      "adult": true
+    },
+    {
+      "topic": "Reading",
+      "question": "What is the meaning of Abnegation?",
+      "options": [
+        "Renouncing a belief or doctrine",
+        "Misplaced chronologically",
+        "Fumingly",
+        "In small amounts"
+      ],
+      "gradeLevel": 1,
+      "adult": true
+    },
+    {
+      "topic": "Writing",
+      "question": "What is an example of an Assonance?",
+      "options": [
+        "How now, brown cow?",
+        "Little Loud Larry",
+        "Oh c'cmon, you never work when I want you to",
+        "Unfortunately, I was in the wrong place at the wrong time."
+      ],
+      "gradeLevel": 1,
+      "adult": true
+    },
+    {
+      "topic": "General",
+      "question": "How many hearts does an octopus have?",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "8"
+      ],
+      "gradeLevel": 1,
+      "adult": true
+    },
+    {
+      "topic": "History",
+      "question": "When was the declaration of independence signed?",
+      "options": [
+        "August 2nd, 1776",
+        "August 5th, 1776",
+        "December 2nd, 1802",
+        "April 09, 1901"
+      ],
+      "gradeLevel": 1,
+      "adult": true
+    },
+    {
+      "topic": "Math",
+      "question": "What is the Y-intercept of the following linear equation: 50 + 1 = 2x",
+      "options": [
+        "-1",
+        "50",
+        "2x",
+        "1"
+      ],
+      "gradeLevel": 2,
+      "adult": true
+    },
+    {
+      "topic": "Science",
+      "question": "What is the hardest natural substance on Earth?",
+      "options": [
+        "Diamonds",
+        "wurtzite boron nitride",
+        "Copper",
+        "Titanium"
+      ],
+      "gradeLevel": 2,
+      "adult": true
+    },
+    
+    {
+      "topic": "Writing",
+      "question": "Which sentence contains a subordinating conjunction?",
+      "options": [
+        "I'm staying in because it's snowing.",
+        "Five little sheep ran away from the farm.",
+        "Mary had to go to the office today.",
+        "Maybe I can."
+      ],
+      "gradeLevel": 2,
+      "adult": true
+    },
+    {
+      "topic": "General",
+      "question": "On April 12, 1945 President Franklin D. Roosevelt died while during his term in office, making who the 33rd President of the United States?",
+      "options": [
+        "Harry Truman",
+        "Bill Clinton",
+        "George Washington",
+        "Federal George Harrison"
+      ],
+      "gradeLevel": 2,
+      "adult": true
+    },
+    {
+      "topic": "History",
+      "question": "What state was the last state to overturn laws against interracial marriage in the year 2000?",
+      "options": [
+        "Alabama",
+        "California",
+        "Texas",
+        "Florida"
+      ],
+      "gradeLevel": 2,
+      "adult": true
+    },
+    {
+      "topic": "Math",
+      "question": "What is the formula for the equation of a circle?",
+      "options": [
+        "(x-h)^2+(y-k)^2 = r^2",
+        "PiR^2",
+        "2PiR^2",
+        "(y+k)^2-2(r)=(x-h)"
+      ],
+      "gradeLevel": 3,
+      "adult": true
+    },
+    {
+      "topic": "Science",
+      "question": "Which is the main gas that makes up the Earth's atmosphere?",
+      "options": [
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Oxygen",
+        "Neon"
+      ],
+      "gradeLevel": 3,
+      "adult": true
+    },
+    
+    {
+      "topic": "Writing",
+      "question": "What is the meaning of Vedanta?",
+      "options": [
+        "The end of knowledge",
+        "Final step on spiritual journey",
+        "The expansion of thought",
+        "Force of nature"
+      ],
+      "gradeLevel": 3,
+      "adult": true
+    },
+    {
+      "topic": "General",
+      "question": "What is the capital of uruguay?",
+      "options": [
+        "Montevideo",
+        "Carlos City",
+        "Stekanod",
+        "Tokyo"
+      ],
+      "gradeLevel": 3,
+      "adult": true
+    },
+    {
+      "topic": "History",
+      "question": "When was France founded?",
+      "options": [
+        "September 22nd, 1792",
+        "December 9th, 1951",
+        "April 15th, 1882",
+        "October 9th, 1761"
+      ],
+      "gradeLevel": 3,
+      "adult": true
+    }
+  ]
 }
