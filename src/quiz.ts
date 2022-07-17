@@ -133,8 +133,10 @@ let adultQuestionCount = 0;
 function showQuestion(question: Question) {
     if (adultQuestionCount < 0) adultQuestionCount = 0;
     if (childQuestionCount < 0) childQuestionCount = 0;
-    document.querySelector("#parent-points")!.innerHTML = "Points: " + adultQuestionCount.toString();
-    document.querySelector("#child-points")!.innerHTML = "Points: " + childQuestionCount.toString();
+    if (childQuestionCount > 15) childQuestionCount = 15;
+    if (childQuestionCount > 15) childQuestionCount = 15;
+    document.querySelector("#parent-points")!.innerHTML = "Points: " + adultQuestionCount.toString() + "/15";
+    document.querySelector("#child-points")!.innerHTML = "Points: " + childQuestionCount.toString() + "/15";
 
     if (question.adult) {
         document.querySelector("#parent-question")!.innerHTML = question.question;
@@ -229,21 +231,21 @@ function runQuiz() {
                     childQuestionCount++;
                     childQuestion = selectRandomFromArray(questionGroup.filter({ adult: false }));
                     showQuestion(childQuestion);
+                    checkIfWin();
                 } else {
                     childQuestionCount--;
-                    checkIfWin();
                 }
             }
         }
     }
 
     function checkIfWin() {
-        if (adultQuestionCount >= 20) {
+        if (adultQuestionCount >= 15) {
             finished = true;
             document.querySelector("#winner")!.innerHTML = "The PARENT has WON!";
             document.querySelector("#back-to-home")!.innerHTML = "Back to home!";
             document.querySelector(".flex")!.remove();
-        } else if (childQuestionCount >= 20) {
+        } else if (childQuestionCount >= 15) {
             finished = true;
             document.querySelector("#winner")!.innerHTML = "The CHILD has WON!";
             document.querySelector("#back-to-home")!.innerHTML = "Back to home!";
